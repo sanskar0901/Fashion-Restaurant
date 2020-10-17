@@ -260,7 +260,6 @@ margin: 26px auto;
 
 .row{
 display: flex;
-flex-wrap: wrap;
 justify-content: center;
 }
 .col{
