@@ -7,7 +7,7 @@
 }
 .navigator{
     background:black;
-    background-color: rgb(0,0,0,0.95);
+    background-color: rgb(0,0,0,0.99);
     color: #FFFFFF ;
     position: fixed;
     top: 0px;
@@ -72,7 +72,7 @@
 }
 
 #menu{
-    padding: 3.5%;
+    padding: 4%;
 }
 #menu h1{
     color:rgba(0,0,0,0.65);
@@ -145,7 +145,7 @@
 }
 
 #menu h5{
-    font-size:20px;
+    font-size:25px;
     margin:4px; 
     margin-top:20px;
     margin-bottom: 15px;
