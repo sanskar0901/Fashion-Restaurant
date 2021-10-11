@@ -23,13 +23,13 @@
   float: left;
 }
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.7)),
-    url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg);
+  background: linear-gradient(rgba(145, 145, 145, 0.7), rgba(67, 67, 67, 0.7)),
+    url(https://www.thespruceeats.com/thmb/LDrkRByRnQInfZF25HyLYSJ0Iyg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/garlic-burger-patties-333503-hero-01-e4df660ff27b4e5194fdff6d703a4f83.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
   color: white;
-  font-size: 70px;
+  font-size: 85px;
   text-align: center;
   padding: 20px;
 }
@@ -74,7 +74,7 @@
 #menu h1 {
   color: rgba(0, 0, 0, 0.65);
   font-family: Arial;
-  font-size: 45px;
+  font-size: 50px;
   margin: 2px;
 }
 #menu h5 {
@@ -195,7 +195,7 @@
 }
 #contact h1 {
   font-family: Arial;
-  font-size: 45px;
+  font-size: 50px;
   margin: 2px;
   padding-left: 20px;
   padding-top: 10px;
@@ -238,7 +238,7 @@ input[type="submit"] {
   color: rgba(0, 0, 0, 0.65);
   padding: 40px 0;
   background: #f1f1f1;
-  color: #434343;
+  color: #434344;
   text-align: center;
 }
 .inner {
