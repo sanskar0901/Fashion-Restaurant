@@ -754,4 +754,24 @@ input[type="submit"] {
   background: #ff0000;
   width: 0%;
 }
+  
+  
+  .headrrr{
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  }
+  
+    #dheadrrr{
+       width: 100px;
+  height: 100px;
+  border-radius: 50%;
+   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  }
 
