@@ -44,8 +44,7 @@
   padding: 18%;
 }
 .columnx {
-  float: left;
-  width: 50%;
+  width: 80%;
 }
 .columnx1 {
   float: right;
@@ -117,9 +116,11 @@
     font-size: 7rem;
 }
 .column{
-    float: left;
-    width: 50%;
+    width: 100%;
+    margin: 3rem;
+  
 }
+
 .column1{
     float: right;
     background-image: url('https://veann.com/wp-content/uploads/2017/04/Cafe_P_hazelnut_gougeres_smoked_peperonata-1000-750x500.jpg');
@@ -273,7 +274,6 @@ li{
 #contact{
   /*  background:rgb(27, 27, 27); */
     background-color: white;
-    color: black;
     box-shadow: 0 0 8px 8px white inset;
     padding: 3.5%;
     padding-bottom: 0;
@@ -283,6 +283,7 @@ li{
     font-family: Arial;
     font-size:45px;
     margin:2px;
+    color: white;
     padding-left: 20px;
     padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
@@ -365,6 +366,8 @@ margin: 26px auto;
   font-size: 20px;
   text-transform: uppercase;
   margin: 20px 0;
+
+}
 
 .row{
 display: flex;
@@ -460,7 +463,7 @@ footer .form-control {
 
 
 /* Credits: https://www.codeply.com/p/EJd6H4Ejyi */
-=======
+
 * {
   margin: 0;
   padding: 0;
@@ -556,7 +559,7 @@ footer .form-control {
   border-radius: 20px;
   font-size: 20px;
   color: white;
-  padding: 8px;
+  padding: 5px;
 }
 
 .price {
