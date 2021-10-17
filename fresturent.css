@@ -6,8 +6,40 @@
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
+
+.nav-link{
+  color: #fff;
+}
+.nav-link:hover{
+  color: yellow;
+  border-bottom:2px solid yellow;
+}
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+  z-index: 1;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 0.7rem;
+
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.3rem;
+  /* font-family: 'Montserrat-Light'; */
+}
 .navigator {
-  background: black;
+  background: rgb(231, 0, 0);
   background-color: rgb(0, 0, 0, 0.95);
   color: #ffffff;
   position: fixed;
@@ -15,7 +47,7 @@
   width: 100%;
 }
 .navigator a {
-  color: #ffffff;
+  color: #ff0707;
   text-decoration: none;
   font-size: 25px;
   margin-left: 2%;
@@ -43,8 +75,9 @@
   text-transform: uppercase;
   padding: 18%;
 }
+
 .columnx {
-  float: left;
+  float: right;
   width: 50%;
 }
 .columnx1 {
@@ -116,10 +149,60 @@
     padding: 18%;
     font-size: 7rem;
 }
-.column{
-    float: left;
-    width: 50%;
+.wrapper{
+  width: 1200px;
+  margin: 100px auto;
 }
+.menu-title{
+  text-align: center;
+  margin-bottom: 60px;
+}
+.menu-title h4{
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+}
+.menu-title h4 span{
+  display: block;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: -10px;
+
+}
+.menu-title h4::before{
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #ff7720;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.single-menu{
+  flex-basis: 580px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-top: 5px;
+
+}
+.menu-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 .column1{
     float: right;
     background-image: url('https://veann.com/wp-content/uploads/2017/04/Cafe_P_hazelnut_gougeres_smoked_peperonata-1000-750x500.jpg');
@@ -133,7 +216,7 @@
     margin-left: 0px;
     padding-left: 0px;
     margin-right:80px;
-    float:left;
+    /* float:left; */
     background-image: url('https://gbc-cdn-public-media.azureedge.net/img9762.1426x713.jpg');
     height: 600px;
     width: 600px;
@@ -150,7 +233,8 @@
     color:rgba(0,0,0,0.65);
     font-family: Arial;
     font-size:45px;
-    margin:2px;
+    /* margin:2px; */
+    text-align: center;
 }
 #menu h5{
     font-size:20px;
@@ -178,6 +262,7 @@
     font-size: 15px;
     color: white;
     padding: 3px;
+    font-weight: bold;
 }
 .row:after{
     content:"";
@@ -222,6 +307,7 @@ li{
       font-family: 'Montserrat', sans-serif;
     font-size:45px;
     margin:2px;
+    text-align: center;
 }
 
 #menu h5{
@@ -238,7 +324,8 @@ li{
     color:rgba(0,0,0,0.65);
     font-family: 'Montserrat', sans-serif;
     font-size:45px;
-    margin-left:40%;
+    /* margin-left:40%; */
+    text-align: center;
     padding-top: 5%;
 }
 #gallery {
@@ -461,7 +548,7 @@ footer .form-control {
 
 /* Credits: https://www.codeply.com/p/EJd6H4Ejyi */
 =======
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -774,4 +861,4 @@ input[type="submit"] {
   scroll-behavior: smooth;
   font-family: sans-serif;
   }
-
+ */
