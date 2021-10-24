@@ -622,7 +622,20 @@ label {
 margin: 0%;
 }
 
+.footer h5{
+  font-family: 'Montserrat', sans-serif;
+}
 
+.footer h4{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer h6{
+  font-family: 'Montserrat', sans-serif;
+}
+.footer ul{justify-content: center;
+
+}
 /* Credits: https://www.codeply.com/p/EJd6H4Ejyi */
 
 /* * {
