@@ -11,8 +11,8 @@
   color: #fff;
 }
 .nav-link:hover{
-  color: yellow;
-  border-bottom:2px solid yellow;
+  color: rgb(255, 153, 0);
+  border-bottom:2px solid rgb(255, 115, 0);
 }
 
 
