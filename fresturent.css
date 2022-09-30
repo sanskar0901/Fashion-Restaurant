@@ -658,6 +658,13 @@ margin: 0%;
 .footer ul{justify-content: center;
 
 }
+.san{
+padding-top:10vh;
+     display: flex;
+ flex-direction: column;
+ gap: 2.5vh;
+ justify-content: center;
+}
 /* Credits: https://www.codeply.com/p/EJd6H4Ejyi */
 
 /* * {
