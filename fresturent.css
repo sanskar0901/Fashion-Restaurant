@@ -590,6 +590,15 @@ footer .form-control {
     
   
 }
+.contact2{
+      text-align: center;
+    margin: 0%;
+    background-color: rgb(246, 237, 247);
+    
+    padding: 42px 0px;
+    
+  
+}
 .text{font-size:20px;}
 
 .input{display: flex;
@@ -664,6 +673,11 @@ padding-top:10vh;
  flex-direction: column;
  gap: 2.5vh;
  justify-content: center;
+}
+.foot{
+  display:flex;
+  flex-direction:row;
+  padding:4px;
 }
 /* Credits: https://www.codeply.com/p/EJd6H4Ejyi */
 
