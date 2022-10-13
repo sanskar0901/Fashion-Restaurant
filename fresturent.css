@@ -34,6 +34,15 @@
   padding: 0 18px;
 }
 
+.panda{
+  padding : 40px;
+  margin:20px;
+  font-size:4em;
+  display:flex;  
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
 .nav-link{
   font-size: 1.3rem;
   /* font-family: 'Montserrat-Light'; */
