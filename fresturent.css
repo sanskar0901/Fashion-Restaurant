@@ -8,9 +8,13 @@
 }
 
 .nav-link{
-  color: #a4b4c4;
+  color: #z4y4x4;
 }
 .nav-link:hover{
+  color: rgb(200, 189, 16);
+  border-bottom:2px solid rgb(255, 115, 0);
+}
+.n:hover{
   color: rgb(200, 189, 16);
   border-bottom:2px solid rgb(255, 115, 0);
 }
