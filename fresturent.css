@@ -14,6 +14,10 @@
   color: rgb(200, 189, 16);
   border-bottom:2px solid rgb(255, 115, 0);
 }
+.n:hover{
+  color: rgb(200, 189, 16);
+  border-bottom:2px solid rgb(255, 115, 0);
+}
 
 
 .navbar{
