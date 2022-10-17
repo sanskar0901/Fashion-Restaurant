@@ -8,12 +8,11 @@
 
 
 .nav-link {
+  position: relative;
     color: #f2f2f2;
-} 
-.nav-link:hover{
-  color: rgb(200, 189, 16);
-  border-bottom:2px solid rgb(255, 115, 0);
-
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;g
 }
 .n:hover{
   color: rgb(200, 189, 16);
@@ -21,8 +20,23 @@
 }
 
 .nav-link:hover {
-    color: rgb(200, 189, 16);
-    border-bottom: 2px solid rgb(255, 115, 0);
+    color: #007bff;
+    /* border-bottom: 2px solid rgb(255, 115, 0); */
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+
+.nav-link::after{
+  content: '';
+  background-color: white;
+  width: 0%;
+  height: 2px;
+  border-radius: 1px;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.5s;
+
 }
 
 .navbar {
@@ -55,6 +69,7 @@
 
 .nav-link{
   font-size: 1.3rem;
+  transition: all 0.5s;
   /* font-family: 'Montserrat-Light'; */
 
 }
@@ -456,7 +471,7 @@ input[type="tel"] {
     margin-top: 2px;
     margin-bottom: 20px;
     font-size: 20px;
-    border-radius: 10px;
+    padding: 10px ;
 }
 
 input[ type="submit"] {
@@ -464,6 +479,11 @@ input[ type="submit"] {
     border-radius: 10px;
     height: 40px;
     font-weight: bold;
+}
+
+.input-box{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 #contact img {
@@ -623,6 +643,33 @@ body {
 
 /* Sticky footer style and color
 -------------------------------------------------- */
+.socials{
+  margin-top: 20px;
+}
+.social-icon i{
+  color: white;
+  font-size: 2rem;
+}
+
+.socials > .nav-item{
+  margin: 0 18px;
+  padding: 0px;
+  transition: all 0.5s;
+}
+
+.socials > .nav-item>a{
+  border-bottom: none;
+}
+
+.socials > .nav-item:hover{
+  
+  transform: rotate(360deg);
+}
+
+.socials > .nav-item:hover i{
+  color: #007bff;
+}
+
 
 footer {
     padding-top: 30px;
@@ -725,33 +772,35 @@ label {
     color: #000;
 }
 
+
 .btn1 {
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
     text-align: center;
-    color: #23415b;
+    color: #ff4c68;
     white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
-    background-image: none;
-    border: 2px solid #23415b;
+    background: transparent;
+    border: 2px solid #ff4c68;
     padding: 8px 30px;
     font-size: 18px;
     line-height: 1.42857143;
-    border-radius: 10px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: transparent cursor: pointer;
+    background-color: transparent ;
+    cursor: pointer;
+    transition: all 0.5s;
 }
 
-.btn1 :hover {
-    color: #555;
-    background-color: #e02323;
+.btn1:hover{
+  background: #ff4c68;
+  color: white;
 }
 
 .contact {
